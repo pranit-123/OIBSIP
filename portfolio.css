@@ -1,0 +1,181 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    position: sticky;
+    top:0;
+  }
+  .navbar::before{
+    content: "";
+    position:absolute;
+   background-color:darkgray;
+    height:100%;
+    width:100%;
+    z-index: -1;
+  }
+  .navbar ul{
+    display:flex;
+    list-style: none;
+  }
+  .navbar ul li{
+    font-size: 1.2rem;
+  }
+  .navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color:green;
+  }
+  .navbar ul li a:hover{
+    background:palegreen;
+    border-radius: 6px;
+    
+  }
+  
+  #col{
+   
+    width: 400px;
+    font-size:15px ;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 20px;
+    color: black;
+  }
+  #color{
+    color: maroon;
+  }
+  h3{
+    text-align:center;
+    margin-left: 400px;
+  }
+  .name{
+    margin-top: 200px;
+    margin-left: 300px;
+  
+  }
+  .icon{
+    width:80px;
+    height:80px;
+    padding:20px;
+  }
+  .Skills{
+    background-color: chocolate;
+    height: 300px;
+    padding-top: 200px;
+  }
+  
+  .heading{
+    background-color: cadetblue;
+  }
+  
+  
+  #about{
+    display: flex;
+    background-color: chocolate;
+  }
+  
+  .form{
+  
+    border: 2px solid red;
+    padding-top: 100px;
+    height: 400px;
+    background-color: black;
+  }
+  
+  #img1{
+    height: 600px;
+    width: 800px;
+    margin-left:400px;
+  }
+  
+  .wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    justify-content: center;
+    
+  }
+  .wrapper .button:hover{
+    width: 50px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+    
+  
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: blue;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: green;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: red;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: blue;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: green;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: red;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: blue;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
+  }   
+  
+  footer{
+    border:2px solid red;
+    background-color: darkgrey;
+  }
+  .btn:hover{
+    background-color: green;
+  }
+  
+  .wrapper .button:hover{
+    background-color:red;
+  }
+  
+  .Skills .icon:hover{
+    background-color: black;
+  
+  }
+  
